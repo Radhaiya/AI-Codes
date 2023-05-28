@@ -7,8 +7,6 @@ class BreadthFirstTraversal:
 
     def addEdge(self, vertex1, vertex2):
         self.adjacencyList[vertex1].append(vertex2)
-        # Add this line for undirected graph
-
 
     def breadthFirstSearch(self, startVertex):
         visited = [False] * self.numVertices
